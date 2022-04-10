@@ -1,0 +1,1 @@
+Kütüphane otomasyonunda eklediğiniz kitaplar bu klasöre geliyor.
