@@ -1,0 +1,128 @@
+#kapsayici{
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000;
+}
+.logo a{
+    color: red;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: Courier ;
+    font-weight: 10;
+}
+.menu ul li{
+    display:block;
+    float: left;
+    list-style: none;
+    font-size: 18px;
+    padding:10px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana ;
+
+}
+#ust{
+    background: #E6E5E3;
+    margin: 0 0 10px 0;
+    padding: 10px 10px 10px 10px;
+    height: 150px;
+    border-radius: 5px;
+}
+#ust .logo {
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 70px;
+}
+#ust .menu{
+    background: #D2D0D1;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+}
+#orta{
+    background: #E6E5E3;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    height: 800px;
+}
+#orta .icerik{
+    background: #D2D0D1;
+    float: left;
+    width: 650px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 5px;
+    height: 800px;
+}
+#orta .icerikabout{
+    background: #D2D0D1;
+    float: left;
+    width: 960px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 5px;
+    height: 800px;
+}
+#orta .icerikcontact{
+    background: #D2D0D1;
+    float: left;
+    width: 960px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 5px;
+    height: 800px;
+}
+#orta .icerikcontactform{
+    background: #D2D0D1;
+    float: left;
+    width: 960px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 5px;
+    height: 800px;
+}
+#orta .icerikcontrolpanel{
+    background: #D2D0D1;
+    float: left;
+    width: 960px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 5px;
+    height: 800px;
+}
+#orta .yan-menu{
+    background: #D2D0D1;
+    float: right;
+    width: 270px;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    height: 800px;
+}
+.temizle{clear: both;}
+.giris{
+    text-align: center;
+    padding: 150px;
+}
+.icerikadmin{
+    font-size: 24px;
+    font-family: Verdana ;
+}
+.icerikabout{
+    font-family: 18px;
+}
+.icerikindex{
+    text-align: center;
+}
+.icerikindex table {
+    text-align: center;
+}
