@@ -1,0 +1,4 @@
+Admin giriş bilgileri
+
+Kullanıcı adı : admin
+Şifre : admin
