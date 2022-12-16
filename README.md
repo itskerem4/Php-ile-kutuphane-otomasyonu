@@ -10,7 +10,7 @@ Geliştirip'te Kullanabilirsiniz. Tamamen Sizin Elinizde.
 
 Yardım İçin ;
 
-İnstagram Adresim : _keremkaplan
+İnstagram Adresim : itskerem4
 
 Telegram Adresim : keremkaplanxq
 
