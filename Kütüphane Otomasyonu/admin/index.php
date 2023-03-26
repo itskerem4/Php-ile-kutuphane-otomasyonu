@@ -1,7 +1,7 @@
 <?php
 include "logindata.php";
 session_start();
-!OturumAcikmi() ? header("Location: login") : "";
+!OturumAcikmi() ? header("Location: login.php") : "";
 ?>
 <html lang="tr-TR">
 <head>
