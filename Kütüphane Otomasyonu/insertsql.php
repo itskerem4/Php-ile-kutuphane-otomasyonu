@@ -17,15 +17,16 @@ $hedef_dosya = $hedef_dizin.$_FILES["resim"]["name"];
 $ekleme="INSERT INTO kitap (kitap_adi,kitap_yazari,kitap_aciklama,kitap_resim,kitap_durumu)values('".$adi."','".$yazari."','".addslashes($aciklamasi)."','".$hedef_dosya."','".$durumu."')";
 if (move_uploaded_file($_FILES["resim"]["tmp_name"],$hedef_dosya)) {
      echo "<script language='javascript'>alert('Kitap Başarıyla Eklendi')</script>";
+     header("Refresh: 0.5; url=admin/charts.php");
   } 
   else {
     echo "Dosya yükleme başarısız.";
+    header("Refresh: 0.5; url=admin/charts.php");
   }
 if ($baglanti->query($ekleme) === TRUE) 
 {
     echo "<script language='javascript'>alert('Dosya Başarıyla Yüklendi')</script>";
-    header("Refresh: 0.5; url=admin/tables.php");
- 
+   
 } 
 else 
 {
@@ -33,6 +34,8 @@ else
 }
 
 }
+
+
 
 
 

@@ -21,7 +21,7 @@ session_start();
 <body id="page-top">
     <div id="wrapper">
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -29,7 +29,7 @@ session_start();
             </a>
             <hr class="sidebar-divider my-0">
             <li class="nav-item active">
-                <a class="nav-link" href="index">
+                <a class="nav-link" href="index.php">
                     <span>Yönetim Paneli</span></a>
             </li>
             <hr class="sidebar-divider">
@@ -44,10 +44,10 @@ session_start();
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Kayıt Ekleme</h6>  
-                        <a class="collapse-item" href="register">Kayıt Ekleme</a>
-                        <a class="collapse-item" href="members">Üyeler</a>
-                        <a class="collapse-item" href="membersreq">Üye İstekleri</a>
-                        <a class="collapse-item" href="memberspun">Üye Ceza</a>
+                        <a class="collapse-item" href="register.php">Kayıt Ekleme</a>
+                        <a class="collapse-item" href="members.php">Üyeler</a>
+                        <a class="collapse-item" href="membersreq.php">Üye İstekleri</a>
+                        <a class="collapse-item" href="memberspun.php">Üye Ceza</a>
                         <div class="collapse-divider"></div>
                     </div>
                 </div>
@@ -55,23 +55,23 @@ session_start();
 
            
             <li class="nav-item">
-                <a class="nav-link" href="charts">
+                <a class="nav-link" href="charts.php">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Kitap Ekleme</span></a>
             </li>
               <li class="nav-item">
-                <a class="nav-link" href="charts2">
+                <a class="nav-link" href="charts2.php">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Bağış Ekleme</span></a>
             </li>
                <li class="nav-item">
-                <a class="nav-link" href="bookcontrol">
+                <a class="nav-link" href="bookcontrol.php">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Kitap Takibi</span></a>
             </li>
            
             <li class="nav-item">
-                <a class="nav-link" href="tables">
+                <a class="nav-link" href="tables.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>İstek Öneri Alanı</span></a>
             </li>
@@ -104,7 +104,7 @@ session_start();
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="logout" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400" name="logout"></i>
                                     Çıkış Yap
                                 </a>
@@ -187,7 +187,7 @@ session_start();
                                 </div>
                                 <div class="card-body">
                                     <div class="chart-pie pt-4 pb-2">
-                                  <form action="../insertsql" method="post">
+                                  <form action="../insertsql.php" method="post">
                                            <input type="text" name="kitapid" placeholder="Kitap İd"><br><br> 
                                            <input type="text" name="guncelletext" placeholder="Kitap Durumu"><br><br>
                                            <input type="submit" name="guncelle_buton" value="Güncelle" class="btn btn-primary btn-user btn-block">
@@ -231,7 +231,7 @@ session_start();
                 <div class="modal-body">Çıkış Yapmak İstediğinize Emin misiniz?</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">İptal</button>
-                    <a class="btn btn-primary" href="logout">Çıkış Yap</a>
+                    <a class="btn btn-primary" href="logout.php">Çıkış Yap</a>
                 </div>
             </div>
         </div>

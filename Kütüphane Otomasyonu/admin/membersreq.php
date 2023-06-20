@@ -47,7 +47,7 @@ session_start();
                         <a class="collapse-item" href="register.php">Kayıt Ekleme</a>
                         <a class="collapse-item" href="members.php">Üyeler</a>
                         <a class="collapse-item" href="membersreq.php">Üye İstekleri</a>
-                        <a class="collapse-item" href="memberspun">Üye Ceza</a>
+                        <a class="collapse-item" href="memberspun.php">Üye Ceza</a>
                         <div class="collapse-divider"></div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ session_start();
                     <span>Kitap Ekleme</span></a>
             </li>
   <li class="nav-item">
-                <a class="nav-link" href="charts2">
+                <a class="nav-link" href="charts2.php">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Bağış Ekleme</span></a>
             </li>
