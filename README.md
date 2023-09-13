@@ -6,7 +6,7 @@ Php İle Yapılmış Web Tabanlı Bir Kütüphane Otomasyonu.
 
 Kaynak Dosyalarını Sizinle Paylaştım İndirip Kullanabilirsiniz.
 
-Admîn paneline giriş sağlanmazsa mysql den kendi kullanıcı postanızı ve şifrenizi girip tekrar deneyin. 
+Admin paneline giriş sağlanmazsa mysql den kendi kullanıcı postanızı ve şifrenizi girip tekrar deneyin. 
 
 Geliştirip'te Kullanabilirsiniz. Tamamen Sizin Elinizde.
 
