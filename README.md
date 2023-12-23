@@ -16,5 +16,5 @@ Yardım İçin ;
 
 Telegram Adresim : keremkaplanxq
 
-
+Web Sites Aderim : www.mekontsoft.com.tr
 
